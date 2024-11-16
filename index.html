@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Du Lịch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chào mừng bạn đến với Website Du Lịch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="destinations.html">Địa Điểm</a></li>
+                <li><a href="#search">Tìm Kiếm</a></li>
+                <li><a href="#signup">Đăng Ký / Đăng Nhập</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Trang Chủ -->
+    <section id="home">
+        <h2>Khám Phá Các Điểm Du Lịch Đẹp</h2>
+        <p> Chúng tôi cung cấp dịch vụ tour du lịch đến các địa điểm nổi tiếng, mang đến cho bạn những trải nghiệm tuyệt vời và những kỳ nghỉ đáng nhớ. Hãy cùng chúng tôi khám phá các tour du lịch phù hợp với sở thích và nhu cầu của bạn.</p>
+    </section>
+
+    <!-- Giới Thiệu -->
+    <section id="about">
+        <h2>Giới Thiệu Về Website</h2>
+        <p>Website của chúng tôi cung cấp dịch vụ đặt tour du lịch, thông tin các địa điểm tham quan, và nhiều hơn nữa.</p>
+        <p>Với các tour du lịch đa dạng từ nghỉ dưỡng, phiêu lưu, đến khám phá các văn hóa, chúng tôi cam kết sẽ mang lại cho bạn những chuyến đi an toàn, thoải mái và đầy thú vị.</p>
+    </section>
+
+    <!-- Địa Điểm Du Lịch -->
+    <section id="destinations">
+        <h2>Địa Điểm Du Lịch Nổi Bật</h2>
+        <div class="destination">
+            <h3>Hạ Long Bay</h3>
+            <p>Khám phá vịnh Hạ Long với những hòn đảo tuyệt đẹp.</p>
+        </div>
+        <div class="destination">
+            <h3>Phú Quốc</h3>
+            <p>Trải nghiệm những bãi biển tuyệt vời và resort sang trọng tại Phú Quốc.</p>
+        </div>
+        <div class="destination">
+            <h3>Hội An</h3>
+            <p>Khám phá phố cổ Hội An với những con phố đầy màu sắc và đậm đà bản sắc văn hóa.</p>
+        </div>
+    </section>
+
+    <!-- Tìm Kiếm -->
+    <section id="search">
+        <h2>Tìm Kiếm Tour Du Lịch</h2>
+        <form action="#">
+            <input type="text" id="search-input" placeholder="Tìm kiếm tour..." />
+            <button type="submit">Tìm Kiếm</button>
+        </form>
+    </section>
+
+    <!-- Đăng Ký / Đăng Nhập -->
+    <section id="signup">
+        <h2>Đăng Ký / Đăng Nhập</h2>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required />
+            <button type="submit">Đăng Nhập</button>
+            <p>Chưa có tài khoản? <a href="#">Đăng Ký</a></p>
+        </form>
+    </section>
+
+    <!-- Liên Hệ -->
+    <section id="contact">
+        <h2>Liên Hệ Với Chúng Tôi</h2>
+        <form action="#">
+            <label for="name">Họ Tên:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="message">Lời Nhắn:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Gửi Phản Hồi</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Website Du Lịch. Tất cả các quyền được bảo vệ.</p>
+    </footer>
+</body>
+</html>
